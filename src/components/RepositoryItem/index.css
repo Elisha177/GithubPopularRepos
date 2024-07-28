@@ -1,1 +1,52 @@
-/* Write your CSS here */
+/* RepositoryItem Styles */
+.repository-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  padding: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.repository-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.repository-image {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.repository-name {
+  color: #e73959;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.stats-container {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.stats-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.stats-text {
+  color: #1e293b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
